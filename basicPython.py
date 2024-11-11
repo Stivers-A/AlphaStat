@@ -27,3 +27,12 @@ print ("Basic Operators " + str(add) +" "+ str(sub) +" "+  str(mult) +" "+  str(
 #LOGIC
 if a > b:
     print(str(a) + " is greater than " + str(b))
+else: 
+    print(str(b) + " is greater than " + str(a))
+
+#if can also be used to check if a bool is true.
+
+    #FOR LOOP
+for i in range(3):
+    print('recursion', i + 1)
+print(range(3))
