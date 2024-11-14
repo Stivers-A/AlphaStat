@@ -72,4 +72,13 @@ try:
     print(10 + int(num))
 except:
     print('Invalid Number')
-#Note python lets you name a variable 'int' which causes int to fail to convert strings to int
+#Note python lets you name a variable 'int' which causes int to fail to convert strings to int  
+
+# Accessing Excel files     
+#pip install openpyxl
+#then import it 
+#import openpyxl
+#from.. accesses excel file
+#from openpyxl import Workbook, load_workbook
+#load in workbook
+#book = load_workbook("apple_quality_unedited.csv")
