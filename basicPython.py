@@ -82,4 +82,3 @@ except:
 #from openpyxl import Workbook, load_workbook
 #load in workbook
 #book = load_workbook("apple_quality_unedited.csv")
- 
