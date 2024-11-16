@@ -47,3 +47,24 @@ print("Median is: ", median)
 #median 0 and 1 are the middlemost numbers assuming that the list is even // is used to keep the results a whole integer making it useful for checking a specific row
 #sorts the values smallest to largest
  
+
+#range 
+#min val and max val go brrr
+range0 =min(assesedValues)
+range1 =max(assesedValues)
+print("Min is ", range0 ,". Max is" ,range1, "Range is ",range1-range0)
+#some houses have no assesed value
+from statistics import mode
+
+print("The most occuring number, mode is:",mode(assesedValues))
+#for this 0.0 tracks as almost every other home price is going to be unique
+
+AssessedValueNoZeros= []
+for row in assesedValues:
+    if float(row) != 0.00:
+        AssessedValueNoZeros.append(row)
+# if looped wrapped in for loop elimanates 0 value rows in AssessedValueMNoZeos
+
+print(AssessedValueNoZeros)
+print("The most occuring number, ignoring 0 is ",mode(AssessedValueNoZeros))
+#for this 0.0 tracks as almost every other home price is going to be unique
