@@ -1,5 +1,5 @@
 import csv
-
+import pandas as pd
 
 
 #Project Goals
@@ -42,3 +42,13 @@ with open ('Real_Estate_Sales_2001-2022_GL.csv','r',newline='') as csvfile1:
 lencolumn2 = len(column2)
 sumcolumn2 = sum(column2)
 avgcolumn2= sumcolumn2/lencolumn2
+
+df = pd.DataFrame({
+    'column1':column1,
+    'column2':column2 
+})
+
+correlation = df['column1'].corr(df['column2'])
+print(correlation)
+#correlation for year of sale and sale amount ios 0.018
+#Lower than expected, a 1 to 1 correlation would of had an output of 1
