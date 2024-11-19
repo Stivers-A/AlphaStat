@@ -18,8 +18,8 @@ alpha = 1 - float(confidence)
 #if p value is greater or equal to alpha we fail to reject null hypothesis
 twoTailed = 1 
 #1 = true 0 = false
-column1name = input('Col1 name')
-column2name = input('Col2 name')
+column1name = input('Col1 name: ')
+column2name = input('Col2 name: ')
 
 column1 = []
 #a matrix that can be filled
