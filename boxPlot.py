@@ -1,6 +1,6 @@
+#DONE render box plot of columns 
 #TODO GUI
 #TODO allow user to select file then select row or column(s) 
-#TODO then render box plot of columns 
 
 #sample boxplot
 #import pandas as pd
