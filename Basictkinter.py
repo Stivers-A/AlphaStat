@@ -32,10 +32,20 @@ button.pack()
 #this label renders right above the input acting like a descriptor
 entryLabel = tk.Label(
     text="Labels allow for text input",
+    
 )
 entry = tk.Entry(fg="yellow", bg="blue", width=50)
+
 entryLabel.pack()
+
 entry.pack()
+name = entry.get()
+name
+button = tk.Button(
+    window,
+    text=name,)
+button.pack()
+
 #entry.get can be used to retrieve user inputs from entry
 window.mainloop()
 # mainloop tells python to run the tk main loop, basically stuff after this wont run until the window is closed
