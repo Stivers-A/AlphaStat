@@ -1,6 +1,6 @@
 
 import tkinter as tk
-
+ 
 window = tk.Tk()
 
 window.title('Press a button!')
